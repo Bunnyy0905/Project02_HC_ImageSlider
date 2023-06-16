@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    position: relative;
+    width:100vw;
+    height:46.4vw;
+    background-image: url('uk1.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: slider 24s infinite linear;
+    /* animation-name: slider;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ */
+}
+
+@keyframes slider{
+    0%{background-image: url('uk1.jpeg');}
+    20%{background-image: url('uk2.jpeg');}
+    40%{background-image: url('uk3.jpeg');}
+    65%{background-image: url('uk4.jpeg');}
+    80%{background-image: url('uk5.jpg');}
+   
+
+}
+
